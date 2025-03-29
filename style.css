@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: white;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: #e0e7ff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.documents {
+    padding: 20px;
+}
+
+.document-card {
+    display: block;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.document-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.service-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bottom-nav .active {
+    color: black;
+}
